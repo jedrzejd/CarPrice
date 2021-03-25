@@ -21,11 +21,11 @@ It is enough to provide a link to the advertisement. Will be displayed on the sc
 
 ## Screenshots
 
-![plot](./static/img1.png)
+![plot](static/image1.png)
 
 ---
 
-![plot](./static/img2.png)
+![plot](static/image2.png)
 
 ## Usage
 
