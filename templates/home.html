@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    {% if title %}
+        <title>{{ title }} - CarPrice</title>
+    {% else %}
+        <title>Welcome to CarPrice</title>
+    {% endif %}
+</head>
+<body>
+<div>CarPrice: <a href="/">Home page</a></div>
+<hr>
+{% block content %}
+    <h1>Oszacuj cenę samochodu z ogłoszenia</h1>
+    <form action="" method="post" novalidate>
+        <p>
+            {{ form.link.label }}<br>
+            {{ form.link(size=60) }}
+        </p>
+
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
+
+</body>
+</html>
