@@ -23,6 +23,8 @@ It is enough to provide a link to the advertisement. Will be displayed on the sc
 
 ![plot](./static/img1.png)
 
+---
+
 ![plot](./static/img2.png)
 
 ## Usage
